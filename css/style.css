@@ -1,0 +1,170 @@
+header img{
+	margin: 0;
+}
+
+#projectSection{
+    padding: 0;
+}
+
+.navbar-default{
+    background:#3A539B;
+}
+
+.resume{
+    text-align:initial;
+    border-style: solid;
+    border-width: small;
+}
+
+.details li{
+    font-size: 1.25em;
+}
+
+.resumeImage{
+    max-width: 90%;
+    padding-bottom: 75px;
+}
+
+.skillSet ul{
+    display:inline-block;
+    font-size: 1.5em;
+    width:30%;
+}
+
+.education,
+.work,
+.skills,
+.projects{
+    /*margin-bottom: 48px;*/
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#recentProject{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*.wrapper{
+    min-height: calc(100vh - 204px);
+}*/
+
+.header-col{
+    float:left;
+}
+
+li .page-scroll a:hover{
+    color:#95a5a6;
+}
+
+.profPic{
+	display:inline-block;
+	max-width: 90%;
+    height: auto;
+    border-radius: 45%;
+}
+
+.intro-text{
+	display:inline-block;
+}
+
+.description{
+    font-size: 1.5em;
+}
+
+#contact{
+    background-color: #6C7A89;
+    color: white;
+    padding-top:50px;
+}
+
+.form-control{
+    color:white;
+}
+
+input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+}
+
+textarea::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: white !important;  
+}
+
+.contactFields label{
+    color:white;
+}
+
+.btn-success{
+    background-color: #3A539B;
+    border-color:#3A539B;
+}
+
+.btn-success:hover{
+    background-color: #3A539B;
+    border-color:#3A539B;
+    opacity: .75;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover{
+    color:#bdc3c7;
+    background-color:transparent;
+}
+
+
+footer .footer-above{
+    padding-top:10px;
+}
+
+.socialMedia{
+       margin: 0 auto;
+       float:none;
+}
+
+.socialMediaList{
+    padding-left: 0;
+    list-style: none;
+}
+
+.socialMediaList li{
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 2em;
+}
+
+iframe {
+    display:block;
+    margin:auto;
+}
+
+@media(max-width:1200px){
+    .profPic{
+        min-width: 375px;
+        max-height: 420px;
+        border-radius: 50%;
+    }
+}
